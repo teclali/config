@@ -1,6 +1,12 @@
-# only allow whitelisted directories
+# ignore everything
 *
-!.gitignore
-!tmux/
-!wezterm/
+# but check all subdirectories for whitelist
+!*/
 
+# Whitelist
+!.gitignore
+!tmux/*
+!wezterm/*
+
+# Blacklist
+*.bak
