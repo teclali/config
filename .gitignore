@@ -1,0 +1,6 @@
+# only allow whitelisted directories
+*
+!.gitignore
+!tmux/
+!wezterm/
+
